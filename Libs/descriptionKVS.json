@@ -1,0 +1,278 @@
+{
+   "snippets": [
+    {
+      "shortcut": "KVS01",
+      "name": "MFY1",
+      "ip":"",
+      "text": "Komentarz:\n Odpowiada za wyświetlanie kanapek (burgery, wrapy kurczaki)\n\nPeryferia:\n Bumpbar (kasowanie zamówień)\n Drukarka grillowa do zamówień specjalnych (opcjonalne)\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS02",
+      "name": "MFY1 (lustro)",
+      "ip":"",
+      "text": "Komentarz:\n Odpowiada za wyświetlanie kanapek (burgery, wrapy kurczaki)\n\nPeryferia:\n Bumpbar (kasowanie zamówień)\n Drukarka grillowa do zamówień specjalnych (opcjonalne)\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS03",
+      "name": "MFY2",
+      "ip":"",
+      "text": "Komentarz:\n Odpowiada za wyświetlanie kanapek (burgery, wrapy kurczaki)\n\nPeryferia:\n Bumpbar (kasowanie zamówień)\n Drukarka grillowa do zamówień specjalnych (opcjonalne)\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS04",
+      "name": "MFY2 (lustro)",
+      "ip":"",
+      "text": "Komentarz:\n Odpowiada za wyświetlanie kanapek (burgery, wrapy kurczaki)\n\nPeryferia:\n Bumpbar (kasowanie zamówień)\n Drukarka grillowa do zamówień specjalnych (opcjonalne)\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS05",
+      "name": "MFY3",
+      "ip":"",
+      "text": "Komentarz:\n Odpowiada za wyświetlanie kanapek (burgery, wrapy kurczaki)\n\nPeryferia:\n Bumpbar (kasowanie zamówień)\n Drukarka grillowa do zamówień specjalnych (opcjonalne)\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS06",
+      "name": "MFY4",
+      "ip":"",
+      "text": "Komentarz:\n Odpowiada za wyświetlanie kanapek (burgery, wrapy kurczaki)\n\nPeryferia:\n Bumpbar (kasowanie zamówień)\n Drukarka grillowa do zamówień specjalnych (opcjonalne)\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS29",
+      "name": "MFY1 (lustro 2) - Cascade",
+      "ip":"",
+      "text": "Komentarz:\n Monitor znajduje się w okolicy KVS09 (z reguły nad nim). Pokazuje to samo co KVS01. Nie znajduje się na standardowym wyposażeniu Restauracji.\n\nPeryferia:\n Rozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "EPR01/2",
+      "name": "eProduction",
+      "ip":"",
+      "text": "Komentarz:\n Monitory eProduction. Wyświetlają ile półproduktów smażonych (na grillu/we fryturze) powinno znajdować się w podgrzewaczu zwanym UHC.\n Pasek na dole monitora pokazuje ilość zaplanowanych transakcji (TC) w blokach 15-minutowych.\n Widać poprzednią godzinę, aktualne 15 minut, następna godzina)\n\nPeryferia:\n Bumpbar: zmiana projekcji, przełączanie pory na eProd (śniadania/lunche), kasowanie zamówień z monitora frytki.\n Bumpbar podłączony jest do KVS08\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS08",
+      "name": "Frytka",
+      "ip":"",
+      "text": "Komentarz:\n Monitor wyświetla produkty ziemniaczane (frytki i promo frytki) jakie należy przygotować do każdego zamówienia(mieści się 8) oraz podsumowanie ilości dla wszystkich zamówień)\n\nPeryferia:-\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS09",
+      "name": "Runner",
+      "ip":"",
+      "text": "Komentarz:\n Wyświetlają całe zamówienie (kanapki, frytki, napoje i desery, dodatki). Pod bumpbarem znajduje się drukarka OAT, która drukuje skład zamówienia.\n\nPeryferia:\n Bumpbar / monitor dotykowy\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS10",
+      "name": "Runner 2",
+      "ip":"",
+      "text": "Komentarz:\n Wyświetlają całe zamówienie (kanapki, frytki, napoje i desery, dodatki). Pod bumpbarem znajduje się drukarka OAT, która drukuje skład zamówienia.\n\nPeryferia:\n Bumpbar / monitor dotykowy\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS11",
+      "name": "Presenter",
+      "ip":"",
+      "text": "Komentarz:\n Wyświetla całe zamówienie tak jak Runner. Po dotknięciu zamówienia. Pokazuje się ono jako Gotowe do odbioru na monitorach ORB, a numer zamówienia pojawia się na monitorze miniORB (mORB).\n\nPeryferia:\n Monitor dotykowy + drukarka OAT\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS12",
+      "name": "Presenter 2",
+      "ip":"",
+      "text": "Komentarz:\n Wyświetla całe zamówienie tak jak Runner. Po dotknięciu zamówienia. Pokazuje się ono jako Gotowe do odbioru na monitorach ORB, a numer zamówienia pojawia się na monitorze miniORB (mORB).\n\nPeryferia:\n Monitor dotykowy + drukarka OAT\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS15",
+      "name": "ORB",
+      "ip":"",
+      "text": "Komentarz:\n ORB - status zamówienia widoczny dla klienta.\n\nPeryferia:-\n Rozdzielczość: 1280x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS16",
+      "name": "ORB 2",
+      "ip":"",
+      "text": "Komentarz:\n ORB - status zamówienia widoczny dla klienta.\n\nPeryferia:-\n Rozdzielczość: 1280x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS17",
+      "name": "BEV 1",
+      "ip":"",
+      "text": "Komentarz:\n Inaczej Beverage. Monitory na których widzimy: napoje(zimne i ciepłe) oraz desery. W Restauracji mogą występować 2 bądź 3 monitory.\n Dodatkowo w zależności od \"podziału BEV\" Restauracji konkretny rodzaj będzie wyświetlał się na innych monitorach.\n (np napoje zimne KVS17, ciepłe na 18, lody na 19) W podstawowej konfiguracji każdy monitor pokazuje to samo tzw. \"mirror mode\"\n\nPeryferia:\n Bumpbar/może być dotykowy / opcjonalnie drukarka grillowa\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS18",
+      "name": "BEV 2",
+      "ip":"",
+      "text": "Komentarz:\n Inaczej Beverage. Monitory na których widzimy: napoje(zimne i ciepłe) oraz desery. W Restauracji mogą występować 2 bądź 3 monitory.\n Dodatkowo w zależności od \"podziału BEV\" Restauracji konkretny rodzaj będzie wyświetlał się na innych monitorach.\n (np napoje zimne KVS17, ciepłe na 18, lody na 19) W podstawowej konfiguracji każdy monitor pokazuje to samo tzw. \"mirror mode\"\n\nPeryferia:\n Bumpbar/może być dotykowy / opcjonalnie drukarka grillowa\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS19",
+      "name": "BEV 3",
+      "ip":"",
+      "text": "Komentarz:\n Inaczej Beverage. Monitory na których widzimy: napoje(zimne i ciepłe) oraz desery. W Restauracji mogą występować 2 bądź 3 monitory.\n Dodatkowo w zależności od \"podziału BEV\" Restauracji konkretny rodzaj będzie wyświetlał się na innych monitorach.\n (np napoje zimne KVS17, ciepłe na 18, lody na 19) W podstawowej konfiguracji każdy monitor pokazuje to samo tzw. \"mirror mode\"\n\nPeryferia:\n Bumpbar/może być dotykowy / opcjonalnie drukarka grillowa\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS20",
+      "name": "BEVBundler",
+      "ip":"",
+      "text": "Komentarz:\n Monitor BEVBundler działa na zasadzie Mirror Mode dla monitorów z obszarów BEV. Jest to monitor z podobnym działaniem jako OAT-Runner.\n Pracownik spozycjowany na stanowisku BEVBundler widzi w czasie rzeczywistym to samo, co pracownicy na swoich monitorach na stanowiskach BEV (widzi wszystkie zamówienia oraz wszystkie produkty z zamówień)\n\nPeryferia:\n Bumpbar/może być dotykowy / opcjonalnie drukarka grillowa\n\nRozdzielczość: 1024x768 lub 1280x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS22",
+      "name": "DT Presenter",
+      "ip":"",
+      "text": "Komentarz:\n Prezenter linii Drive Thru. Pokazuje całość zamówienia.\n\nPeryferia:\n Bumpbar / dotykowy\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS34",
+      "name": "DT Runner",
+      "ip":"",
+      "text": "Komentarz:\n Runner dla kolejki Drive Thru. Pokazuję się tutaj całe zamówienia z linii DT.\n Po skasowaniu z tego monitora zamówienie oznacza się jako \"Kompletne\" na KVS22.\n Funkcjonalność ta może zostać wyłączona poprzez przycisk znajdujący się na kasie w menu kasjera.\n\nPeryferia:\n Bumpbar / dotykowy\n\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS31",
+      "name": "BestBurger",
+      "ip":"",
+      "text": "Komentarz:\n Monitor pokazujący ilość mięsa wołowego do wstawienia. Inaczej zwany look&cook\n\nPeryferia:\n Bumpbar\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS33",
+      "name": "BestBurger 2",
+      "ip":"",
+      "text": "Komentarz:\n Monitor pokazujący ilość mięsa wołowego do wstawienia. Inaczej zwany look&cook\n\nPeryferia:\n Bumpbar\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS35",
+      "name": "Presenter 1 (lustro)",
+      "ip":"",
+      "text": "Komentarz:\n KVS pokazuje to samo co KVS11\n\nPeryferia:\n Dotykowy\nRozdzielczość: 1024x768\nOstatni oktet: .53",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS36",
+      "name": "Presenter 2 (lustro)",
+      "ip":"",
+      "text": "Komentarz:\n KVS pokazuje to samo co KVS12\n\nPeryferia:\n Dotykowy\nRozdzielczość: 1024x768\nOstatni oktet: .54",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS38 / KVS39",
+      "name": "Mirror1 MCP / Mirror2 MCCP",
+      "ip":"",
+      "text": "Komentarz:\n Monitory w obszarze McCaffe - pełnią role prezenterów McCaffe. \n\nPeryferia:\n \nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS40",
+      "name": "Runner linii DLV",
+      "ip":"",
+      "text": "Komentarz:\n Runner linii Delivery, monitory specjalne do zamówień Delivery(dostawy), zasada działania jak KVS09\n\nPeryferia:\n Bumpbar / dotykowy\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS41",
+      "name": "Prezenter linii DLV",
+      "ip":"",
+      "text": "Komentarz:\n Monitory w obszarze McCaffe - pełnią role prezenterów McCaffe. \n\nPeryferia:\n Dotykowy / drukarka OAT\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS42 / KVS44",
+      "name": "ORB DLV / ORB2 DLV",
+      "ip":"",
+      "text": "Komentarz:\n ORB (delivery) - status zamówienia widoczny dla kurierów Delivery, zasada działania jak KVS15\n KVS44 to mirror KVS42 \n\nPeryferia:\n -\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "HWA01 / HWA02",
+      "name": "Monitor do mycia rąk",
+      "ip":"",
+      "text": "Komentarz:\n Monitory mają uprościć proces monitoringu, odznaczania umycia rąk przez pracownika\n oraz w czytelny sposób wyświetlać aktualny status każdemu pracownikowi. \n\nPeryferia:\n Dotykowy\nRozdzielczość: 1024x768\nOstatni oktet: ",
+      "category":"rest"
+    },
+    {
+      "shortcut": "KVS50",
+      "name": "MFY5",
+      "ip":".39",
+      "text": "Komentarz:\n Odpowiada za wyświetlanie kanapek (burgery, wrapy kurczaki)\n\nPeryferia:\n Bumpbar (kasowanie zamówień)\n Drukarka grillowa do zamówień specjalnych (opcjonalne)\n\nRozdzielczość: 1024x768\n\nOstatni oktet: .39",
+      "category":"427"
+    },
+    {
+      "shortcut": "KVS51",
+      "name": "MFY6",
+      "ip":".40",
+      "text": "Komentarz:\n Odpowiada za wyświetlanie kanapek (burgery, wrapy kurczaki)\n\nPeryferia:\n Bumpbar (kasowanie zamówień)\n Drukarka grillowa do zamówień specjalnych (opcjonalne)\n\nRozdzielczość: 1024x768\n\nOstatni oktet: .40",
+      "category":"427"
+    },
+    {
+      "shortcut": "KVS62",
+      "name": "MFY5 (lusto)",
+      "ip":".56",
+      "text": "Komentarz:\n Odpowiada za wyświetlanie kanapek (burgery, wrapy kurczaki)\n\nPeryferia:\n Bumpbar (kasowanie zamówień)\n Drukarka grillowa do zamówień specjalnych (opcjonalne)\n\nRozdzielczość: 1024x768\n\nOstatni oktet: .56",
+      "category":"427"
+    },
+    {
+      "shortcut": "KVS54",
+      "name": "Runner 3",
+      "ip":".41",
+      "text": "Rozdzielczość: 1024x768\n\nOstatni oktet: .41",
+      "category":"427"
+    },
+    {
+      "shortcut": "KVS55",
+      "name": "Runner 4",
+      "ip":".42",
+      "text": "Rozdzielczość: 1024x768\n\nOstatni oktet: .42",
+      "category":"427"
+    },
+    {
+      "shortcut": "KVS56",
+      "name": "Presenter 3",
+      "ip":".53",
+      "text": "Rozdzielczość: 1024x768\n\nOstatni oktet: .53",
+      "category":"427"
+    },
+    {
+      "shortcut": "KVS57",
+      "name": "Presenter 4",
+      "ip":".54",
+      "text": "Rozdzielczość: 1024x768\n\nOstatni oktet: .54",
+      "category":"427"
+    },
+    {
+      "shortcut": "KVS63",
+      "name": "eProduction 3",
+      "ip":".57",
+      "text": "Rozdzielczość: 1024x768\n\nOstatni oktet: .57",
+      "category":"427"
+    },
+    {
+      "shortcut": "KVS64",
+      "name": "Frytka 2",
+      "ip":".58",
+      "text": "Rozdzielczość: 1024x768\n\nOstatni oktet: .58",
+      "category":"427"
+    }
+  ]
+}
+

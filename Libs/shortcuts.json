@@ -1,0 +1,263 @@
+{
+   "snippets": [
+     {
+      "name": "Zamknięcie nie przeszło na kasie, z której był zamykany dzień",
+      "shortcut": "--zam",
+      "text": "Opis zgłaszanego problemu: \n\tRestauracja zgłasza, iż zamknięcie systemu nie przeszło na kasie, z której był zamykany dzień. \nZrzut ekranu panelu kasowego: \n\nZrzut ekranu z WayStation: \n\nWykonane działania naprawcze: \n\t1. Czy wykonano restart komunikacji? \n\t2.Czy wymuszono zamknięcie oraz otwarcie z poziomu WayStation? \nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja zgłasza, iż zamknięcie systemu nie przeszło na kasie, z której był zamykany dzień. <br>Zrzut ekranu panelu kasowego: <br><br>Zrzut ekranu z WayStation:<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart komunikacji?<li>Czy wymuszono zamknięcie oraz otwarcie z poziomu WayStation?</ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "Newpos - Zamknięcie nie przeszło na kasie, z której był zamykany dzień",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },
+     {
+      "name": "POS - brak kafelków",
+      "shortcut": "--bkaf",
+      "text": "Opis zgłaszanego problemu:\n\tRestauracja zgłasza brak widocznych ikon na kasie.\n\nWykonane działania naprawcze:\n\t1. Czy wykonano restart urządzenia?\n\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b> <br>Restauracja zgłasza brak widocznych ikon na kasie. <br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart urządzenia?</li></ol><br><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "POS - brak kafelków",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },
+     {
+      "name": "POS/CSOxx - Zawieszony",
+      "shortcut": "--poszaw",
+      "text": " Opis zgłaszanego problemu:\n\tUrządzenie zawieszone, nie reaguje na dotyk.\n\nWykonane działania naprawcze:\n\t1. Czy wykonano restart urządzenia?\n\nZaplanowane działania/podsumowanie:",
+      "html": " <b>Opis zgłaszanego problemu:</b><br>Urządzenie zawieszone, nie reaguje na dotyk.<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart urządzenia?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "POS/CSOXX - Zawieszony",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },
+      {
+      "name": "POS/CSO/KVSxx - Żółta M na czerwonym tle",
+      "shortcut": "--czerm",
+      "text": "Opis zgłaszanego problemu:\n\tNa ekranie urządzenia wyświetla się żółta M na czerwonym tle.\n\nWykonane działania naprawcze:\n\t1. Jaki czas temu był wykonywany restart?\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Na ekranie urządzenia wyświetla się żółta M na czerwonym tle.<br><br><b>Wykonane działania naprawcze:</b><ol><li>Jaki czas temu był wykonywany restart?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "POS/CSO/KVSXX - Żółta M na czerwonym tle",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },
+     {
+      "name": "CSOxx - niedostępny",
+      "shortcut": "--csnie",
+      "text": "Opis zgłaszanego problemu:\n\tRestauracja zgłasza problem z kioskiem, na ekranie kiosku wyświetla się komunikat \"Niedostępny\".\n\nDziałania podjęte przez restaurację:\n\nWykonane działania naprawcze:\n\t1. Czy kiosk jest zalogowany?\n\t2. Czy RFM na kiosku jest zgodna z GSC01?\n\t3. Czy dzień biznesowy jest prawidłowy?\n\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja zgłasza problem z kioskiem, na ekranie kiosku wyświetla się komunikat \"Niedostępny\".<br><br>Działania podjęte przez restaurację:<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy kiosk jest zalogowany?</li><li>Czy RFM na kiosku jest zgodna z GSC01? </li><li>Czy dzień biznesowy jest prawidłowy?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "CSOxx - niedostępny",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },
+     {
+      "name": "Autorelease - nie wpada automatycznie",
+      "shortcut": "--ar",
+      "text": "Opis zgłaszanego problemu:\n\tParagony fiskalne nie drukują się automatycznie z drukarki fiskalnej MOP.\n\nWykonane działania naprawcze:\n\t1. Czy wykonano restart komunikacji?\n\t2. Czy kody autorelease są odblokowane?\n\t3. Czy drukarka fiskalna MOP działa prawidłowo?\n\t4. Przykładowe numery zamówienia:\n\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Paragony fiskalne nie drukują się automatycznie z drukarki fiskalnej MOP.<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart komunikacji?</li><li>Czy kody autorelease są odblokowane?</li><li>Czy drukarka fiskalna MOP działa prawidłowo?</li><li><u>Przykładowe numery zamówienia:</u></li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "Autorelease - nie wpada automatycznie",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"36",
+                    "customfield_10065":{"id":"10067"}
+                }
+            }
+     },
+     {
+      "name": "MyStore - dostawa nie zaksięgowała się",
+      "shortcut": "--msdost",
+      "text": "Opis zgłaszanego problemu:\n\tRestauracja zgłasza problem z niezaksięgowaną dostawą w MyStore. \nDziałania podjęte przez restaurację: \n\nWykonane działania naprawcze:\n\t1.Czy dostawa została potwierdzona w Havi Connect, a jeśli tak, to kiedy? \n\t2.Czy dostawa znajduje się w dokumentach w MyStore? \n\t3.Czy paczka z dostawą znajduje się na GSC01?\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b> <br>Restauracja zgłasza problem z niezaksięgowaną dostawą w MyStore. <br><b>Działania podjęte przez restaurację:</b><br><br><b>Wykonane działania naprawcze:</b><br><ol><li>Czy dostawa została potwierdzona w Havi Connect, a jeśli tak, to kiedy?<li>Czy dostawa znajduje się w dokumentach w MyStore?<li>Czy paczka z dostawą znajduje się na GSC01?</ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "MyStore - dostawa nie zaksięgowała się",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10246"}
+                }
+            }
+     },
+     {
+      "name": "KVSxx - zawieszone zamówienie",
+      "shortcut": "--kvszaw",
+      "text": "Opis zgłaszanego problemu:\n\tNa monitorze pojawiło się zamówienie, którego nie da się skasować. \nInformacje o zawieszonym zamówieniu (Numer KVS, numer zamówienia): \n\nWykonane działania naprawcze: \n\t1.Czy zamówienie zniknęło po restarcie KVS? \nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b> <br>Na monitorze pojawiło się zamówienie, którego nie da się skasować. <br><br><b>Informacje o zawieszonym zamówieniu</b> (Numer KVS, numer zamówienia): <br><br><b>Wykonane działania naprawcze:</b><br><ol><li>Czy zamówienie zniknęło po restarcie KVS?</ol><b>Zaplanowane działania/podsumowanie:</b>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "KVSxx - zawieszone zamówienie",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },
+     {
+      "name": "BOS/MAP - nie można się zalogować",
+      "shortcut": "--boslog",
+      "text": "Opis zgłaszanego problemu: \n\tZalogowanie do maszyny wirtualnej BackOffice / OfficePC jest niemożliwe. \nDziałania podjęte przez restaurację: \n\nWykonane działania naprawcze: \n\t1.Czy urządzenie odpowiada w sieci?\n\t2.Czy użytkownik wpisuje prawidłowe poświadczenia do logowania? \n\t3.Czy użytkownik spróbował zrestartować hasło do swojego konta imiennego przy pomocy GAM Account? \nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b> <br>Zalogowanie do maszyny wirtualnej BackOffice / OfficePC jest niemożliwe. <br><br><b>Działania podjęte przez restaurację:</b> <br><br><b>Wykonane działania naprawcze:</b> <ol><li>Czy urządzenie odpowiada w sieci? <li>Czy użytkownik wpisuje prawidłowe poświadczenia do logowania? <li>Czy użytkownik spróbował zrestartować hasło do swojego konta imiennego przy pomocy GAM Account? </ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "BOS/MAP - nie można się zalogować",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"38"
+                }
+            }
+     },
+     {
+      "name": "MyStore - background service nie gotowy",
+      "shortcut": "--bserv",
+      "text": "Opis zgłaszanego problemu:\n\tLogowanie do aplikacji MyStore jest niemożliwe.\nPo uruchomieniu aplikacji wyskakuje komunikat \"Background Serivce nie jest gotowy\".\n\nDziałania podjęte przez restaurację:\n\nWykonane działania naprawcze:\n\t1. Czy wykonano restart procesów MyStore?\n\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Logowanie do aplikacji MyStore jest niemożliwe.<br>Po uruchomieniu aplikacji wyskakuje komunikat \"Background Serivce nie jest gotowy\".<br><br>Działania podjęte przez restaurację:<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart procesów MyStore?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "MyStore - background service nie gotowy",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10246"}
+                }
+            }
+     },
+     {
+      "name": "CFS - Aw, Snap!",
+      "shortcut": "--snap",
+      "text": "Opis zgłaszanego problemu:\n\tNa monitorze CFS wyświetla się błąd: Aw, Snap!\nDziałania podjęte przez restaurację:\n\nWykonane działania naprawcze:\n\t1. Czy wykonano restart MediaPlayera CFS?\n\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Na monitorze CFS wyświetla się błąd: Aw, Snap!<br><br>Działania podjęte przez restaurację:<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart MediaPlayera CFS?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "CFS - Aw, Snap!",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"40",
+                    "customfield_10214": [{
+                                            "workspaceId": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14",
+                                            "id": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14:1102",
+                                            "objectId": "1102"
+                                        }],
+                    "customfield_10497":[{
+                                            "workspaceId": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14",
+                                            "id": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14:116830",
+                                            "objectId": "116830"
+                                        }],
+                    "customfield_10082": [{
+                                            "workspaceId": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14",
+                                            "id": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14:139852",
+                                            "objectId": "139852"
+                                        }]
+                }
+            }
+     },
+     {
+      "name": "POS/CSO/KVSXX - Problemy po aktualizacji obrazu windows",
+      "shortcut": "=wind",
+      "text": "POS/CSO/KVSXX - Problemy po aktualizacji obrazu windows",
+      "html": "POS/CSO/KVSXX - Problemy po aktualizacji obrazu windows",
+      "category":"tytul",
+      "payload":{
+                "fields": {
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33"
+                }
+            }
+     },
+     {
+      "name": "MyStore - brak czasów szybkości obsługi",
+      "shortcut": "=bczas",
+      "text": "MyStore - brak czasów szybkości obsługi",
+      "html": "MyStore - brak czasów szybkości obsługi",
+      "category":"tytul",
+      "payload":{
+                "fields": {
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"39",
+                    "customfield_10062":{"id":"10246"}
+                }
+            }
+     },
+     {
+      "name": "MyStore - Prośba o pomoc w edycji odbić czasowych",
+      "shortcut": "=eodb",
+      "text": "MyStore - Prośba o pomoc w edycji odbić czasowych",
+      "html": "MyStore - Prośba o pomoc w edycji odbić czasowych",
+      "category":"tytul",
+      "payload":{
+                "fields": {
+                    "issuetype":{"name":"Usługa"},
+                    "customfield_10010":"690"
+                }
+            }
+     },
+     {
+      "name": "MyStore - Brak Zużycia za dzień XX",
+      "shortcut": "=bzuz",
+      "text": "MyStore - Brak Zużycia za dzień XX",
+      "html": "MyStore - Brak Zużycia za dzień XX",
+      "category":"tytul",
+      "payload":{
+                "fields": {
+                    "issuetype":{"name":"Usługa"},
+                    "customfield_10010":"689"
+                }
+            }
+     },
+     {
+      "name": "Waystation - Nieprawidłowy dzień biznesowy",
+      "shortcut": "=wnie",
+      "text": "Waystation - Nieprawidłowy dzień biznesowy",
+      "html": "Waystation - Nieprawidłowy dzień biznesowy",
+      "category":"tytul",
+      "payload":{
+                "fields": {
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },
+     {
+      "name": "MOP - Prośba o włączenie/wyłączenie",
+      "shortcut": "=wmop",
+      "text": "MOP - Prośba o włączenie/wyłączenie",
+      "html": "MOP - Prośba o włączenie/wyłączenie",
+      "category":"tytul",
+      "payload":{
+                "fields": {
+                    "issuetype":{"name":"Usługa"},
+                    "customfield_10010":"459"
+                }
+            }
+     }
+   ]
+}
+

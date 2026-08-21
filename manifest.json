@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Jaguar",
+    "version": "2.1.2",
+    "description": "Havi Text Expander",
+    "permissions": ["storage", "sidePanel", "contextMenus", "windows"],
+    "host_permissions": ["https://mcdonalds-poland.atlassian.net/*", "https://jaguar.pl.mcd.com:5001/*"],
+    "action": {
+        "default_popup": "Dashboard/dashboard.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://mcdonalds-poland.atlassian.net/*"],
+            "js": ["libs/purify.min.js","content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+	"web_accessible_resources": [
+        {
+            "resources": ["Libs/shortcuts.json", "Libs/helpful.json", "Libs/purify.min.js","Libs/chart.min.js", "Libs/descriptionKVS.json"],
+            "matches": ["https://mcdonalds-poland.atlassian.net/*"]
+        }
+    ],
+	"icons": {
+		"16": "images/favicon-16x16.png",
+		"32": "images/favicon-32x32.png",
+		"180": "images/apple-touch-icon.png"
+	},
+    "side_panel": {
+        "default_path": "LoginSidepanel/login.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+      }
+}

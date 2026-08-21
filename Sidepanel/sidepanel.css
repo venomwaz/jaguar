@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #22272B;
+    color: #fff;
+}
+
+
+h1 {
+    color: #FFCC00;
+}
+
+#search {
+    text-align: center;
+    width: 90%;
+    padding: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+
+#lists {
+    height: 85vh;
+    overflow-y: auto; /* Add vertical scrollbar */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #22272B;
+    border-bottom: 1px solid #FFCC00;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px; /* Rounded corners for elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    overflow: hidden; /* Ensure text does not overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Limit to 5 lines */
+    line-clamp: 5; /* Standard property for compatibility */
+    -webkit-box-orient: vertical;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#specialList li:hover {
+    background-color: #c69e00; /* Change background color on hover */
+}
+
+#shortcutsList li:hover {
+    background-color: #c69e00; /* Change background color on hover */
+}
+
+#shortcutsList {
+    list-style-type: none;
+    margin-right: 10px;
+    /* max-width: 600px;  */
+    margin-bottom: 50px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgb(255, 255, 255); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FFCC00; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff; 
+  }
+
+
+.name {
+    flex: 1;
+    margin-left: 10px;
+    color: #22272B;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#obecne{
+    color: #FFCC00;
+}
+.navMenu a {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline;
+    justify-content: space-between;
+    width: 80px;
+    text-align: center;
+    border-bottom: 1px solid #FFCC00;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navMenu{
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.navMenu a:hover {
+  color: #c69e00;
+  border-bottom: 1px solid #c69e00;
+}
+hr{
+    clear:both;
+}
