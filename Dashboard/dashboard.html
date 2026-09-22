@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Shortcuts Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body style="width: 550px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; padding: 20px;">
+        <button id="profileButton">
+            <i class="fas fa-user" style="margin-right: 8px;"></i>
+            <p id="userGreeting" style="font-weight: bold; margin: 0;"></p>
+        </button>
+        <div>
+            <a href="https://jaguar.pl.mcd.com:5001/lidershortcut" target="_blank"><button class="dashboardButton">Masówka</button></a>
+            <button id="logoutButton" class="dashboardButton">Wyloguj</button>
+        </div>
+        
+    </div>
+    <div class="instrukcja">Aby wyświetlić skróty, kliknij prawym na ikone wtyczki i wybierz "Open sidepanel"</div>
+
+    <h1>Panel skrótów</h1>
+
+    <section style="display: flex; justify-content: center; gap: 20px; margin: 20px;">
+        <div style="background-color: #22272B; padding: 20px; border-radius: 10px; color: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+            <h3>Wszystkich użyć</h3>
+            <p id="totalCount" style="font-size: 24px; color: #FFCC00;">–</p>
+        </div>
+        <div style="background-color: #22272B; padding: 20px; border-radius: 10px; color: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+            <h3>Najczęstszy skrót</h3>
+            <p id="topShortcut" style="font-size: 24px; color: #FFCC00;">–</p>
+        </div>
+    </section>
+
+    <canvas id="shortcutChart" width="400" height="200" style="margin: 40px auto; display: block;"></canvas>
+
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="mailto:adrian.gaszewski@pl.mcd.com; artur.cholewski@pl.mcd.com?subject=Zgłoszenie%20problemu&body=Opisz%20swój%20problem%20tutaj..."
+
+           style="color: #FFCC00; text-decoration: underline; font-weight: bold; padding-bottom: 10px;">
+            Zgłoś problem / wyślij opinię
+        </a>
+    </div>
+    
+    <script src="../Libs/purify.min.js"></script>
+    <script src="dashboard.js"></script>
+    <script src="../Libs/chart.min.js"></script>
+</body>
+</html>

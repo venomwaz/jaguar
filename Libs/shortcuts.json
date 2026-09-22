@@ -1,0 +1,876 @@
+
+{
+   "snippets": [
+     {
+      "name": "POS - Nieudane zamknięcie",
+      "type": "pos",
+      "shortcut": "--zam",
+      "text": "Opis zgłaszanego problemu: \n\tRestauracja zgłasza, iż zamknięcie systemu nie przeszło na kasie, z której był zamykany dzień. \nZrzut ekranu panelu kasowego: \n\nZrzut ekranu z WayStation: \n\nWykonane działania naprawcze: \n\t1. Czy wykonano restart komunikacji? \n\t2.Czy wymuszono zamknięcie oraz otwarcie z poziomu WayStation? \nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja zgłasza, iż zamknięcie systemu nie przeszło na kasie, z której był zamykany dzień. <br>Zrzut ekranu panelu kasowego: <br><br>Zrzut ekranu z WayStation:<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart komunikacji?<li>Czy wymuszono zamknięcie oraz otwarcie z poziomu WayStation?</ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "Newpos - Zamknięcie nie przeszło na kasie, z której był zamykany dzień",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },
+     {
+      "name": "POS - brak kafelków",
+      "type": "pos",
+
+      "shortcut": "--bkaf",
+      "text": "Opis zgłaszanego problemu:\n\tRestauracja zgłasza brak widocznych ikon na kasie.\n\nWykonane działania naprawcze:\n\t1. Czy wykonano restart urządzenia?\n\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b> <br>Restauracja zgłasza brak widocznych ikon na kasie. <br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart urządzenia?</li></ol><br><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "POS - brak kafelków",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                       "customfield_11253": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11343",
+      "value": "NewPOS",
+      "id": "11343"
+    }
+                }
+            }
+     },
+
+     
+      {
+      "name": "POS/CSO/KVSxx - Czerwone M",
+      "type": "pos",
+
+      "shortcut": "--czerm",
+      "text": "Opis zgłaszanego problemu:\n\tNa ekranie urządzenia wyświetla się żółta M na czerwonym tle.\n\nWykonane działania naprawcze:\n\t1. Jaki czas temu był wykonywany restart?\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Na ekranie urządzenia wyświetla się żółta M na czerwonym tle.<br><br><b>Wykonane działania naprawcze:</b><ol><li>Jaki czas temu był wykonywany restart?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "POS/CSO/KVSXX - Żółta M na czerwonym tle",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                       "customfield_11253": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11343",
+      "value": "NewPOS",
+      "id": "11343"
+    }
+                }
+            }
+     },
+
+
+     {
+  "name": "Problem rozwiązany w trakcie zgłoszenia",
+  "shortcut": "--resolved",
+  "type": "inne",
+  "text": "Opis zgłaszanego problemu:\n\tRestauracja informuje że zaistniały problem udało się rozwiązać podczas oczekiwania na połączenie z konsultantem.\n\tProblemem był\n\nWykonane działania naprawcze:\n\tBrak podjętych działań.\n\nZaplanowane działania/podsumowanie:\n\tRestauracja skontaktuje się w razie gdyby problem znowu się pojawił.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja informuje że zaistniały problem udało się rozwiązać podczas oczekiwania na połączenie z konsultantem.<br>Problemem był<br><br><b>Wykonane działania naprawcze:</b><br>Brak podjętych działań.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Restauracja skontaktuje się w razie gdyby problem znowu się pojawił.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "Problem rozwiązany w trakcie zgłoszenia",
+      "issuetype": {
+        "name": "Usługa"
+      },
+      "customfield_10010": "458"
+    }
+  }
+},
+
+
+{
+  "name": "POS@0 - Komunikat \"Komunikacja z monitorami niemożliwa\"",
+  "shortcut": "--poskom",
+  "type": "pos",
+  "text": "Opis zgłaszanego problemu:\n\tNa kasie wyświetla się komunikat \"Komunikacja z monitorami niemożliwa\".\n\nWykonane działania naprawcze:\n\tUrządzenie odpowiada w sieci.\n\tWykonano restart kasy.\n\nZaplanowane działania/podsumowanie:\n\tPo restarcie urządzenie działa poprawnie.\n\tRestauracja skontaktuje się w razie gdyby problem znowu się pojawił.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Na kasie wyświetla się komunikat \"Komunikacja z monitorami niemożliwa\".<br><br><b>Wykonane działania naprawcze:</b><br>Urządzenie odpowiada w sieci.<br>Wykonano restart kasy.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Po restarcie urządzenie działa poprawnie.<br>Restauracja skontaktuje się w razie gdyby problem znowu się pojawił.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "POS@0 - Komunikat \"Komunikacja z monitorami niemożliwa\"",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      },
+      "customfield_11253": {
+        "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11346",
+        "value": "Inne - proszę wskazać w opisie zgłoszenia",
+        "id": "11346"
+      }
+    }
+  }
+},
+
+
+
+
+
+
+     {
+  "name": "KVS@0 - Bumpbar nie działa",
+  "shortcut": "--bumpbar",
+  "type": "kvs",
+  "text": "Opis zgłaszanego problemu:\n\tRestauracja zgłasza że bumpbar nie kasuje zamówień, nie można też otworzyć i zamknąć strony.\n\tSpróbowano otworzyć i zamknąć stronę poprzez program SoftBumpBar i udało się.\n\nWykonane działania naprawcze:\n\t@1\n\n@2\n\n@3\n\tWpisano hasło tymczasowe dla managera.\n\n@4",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja zgłasza że bumpbar nie kasuje zamówień, nie można też otworzyć i zamknąć strony.<br>Spróbowano otworzyć i zamknąć stronę poprzez program SoftBumpBar i udało się.<br><br><b>Wykonane działania naprawcze:</b><br>@1<br><br>@2<br><br>@3<br>Wpisano hasło tymczasowe dla managera.<br><br>@4",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "KVS@0 - Bumpbar nie działa",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      },
+      "customfield_11253": {
+        "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11346",
+        "value": "Inne - proszę wskazać w opisie zgłoszenia",
+        "id": "11346"
+      }
+    }
+  }
+},
+
+     {
+      "name": "POS/CSOxx - Zawieszony",
+      "type": "pos",
+
+      "shortcut": "--poszaw",
+      "text": " Opis zgłaszanego problemu:\n\tUrządzenie zawieszone, nie reaguje na dotyk fizyczny ani z poziomu podglądu VNC.\n\nWykonane działania naprawcze:\n\t1. Czy wykonano restart urządzenia?\n\nZaplanowane działania/podsumowanie:",
+      "html": " <b>Opis zgłaszanego problemu:</b><br>Urządzenie zawieszone, nie reaguje na dotyk fizyczny ani z poziomu podglądu VNC.<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart urządzenia?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "POS/CSOXX - Zawieszony",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                       "customfield_11253": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11343",
+      "value": "NewPOS",
+      "id": "11343"
+    }
+                }
+            }
+     },
+
+
+{
+  "name": "Szuflada nie działa",
+      "type": "pos",
+
+  "shortcut": "--dsl",
+  "text": "Opis zgłaszanego problemu:\n\tNa kasie szuflada kasowa nie otwiera się automatycznie, w NewPOS nie wyświetla się status szuflady.\n\nWykonane działania naprawcze:\n\t1. Podegrano sterowniki DSL z działającej kasy.\n\t2. Wykonano restart kasy.\n\nZaplanowane działania/podsumowanie:\n\tRestauracja zweryfikuje działanie po zakończeniu restartu.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Na kasie szuflada kasowa nie otwiera się automatycznie, w NewPOS nie wyświetla się status szuflady.<br><br><b>Wykonane działania naprawcze:</b><ol><li>Podegrano sterowniki DSL z działającej kasy.</li><li>Wykonano restart kasy.</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>Restauracja zweryfikuje działanie po zakończeniu restartu.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "POSxx - Szuflada kasowa nie otwiera się automatycznie",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      }
+    }
+  }
+},
+
+{
+  "name": "Mystore - Nie można uruchomić",
+      "type": "ms",
+
+  "shortcut": "--ms1",
+  "text": "Opis zgłaszanego problemu:\n\tNie można uruchomić programu MyStore, nie wyskakuje okienko po kliknięciu skrótu aplikacji.\n\nWykonane działania naprawcze:\n\tZamknięto aktywny proces MyStore poprzez Menedżer Zadań.\n\nZaplanowane działania/podsumowanie:\n\tPomyślnie otworzono program MyStore.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Nie można uruchomić programu MyStore, nie wyskakuje okienko po kliknięciu skrótu aplikacji.<br><br><b>Wykonane działania naprawcze:</b><br>Zamknięto aktywny proces MyStore poprzez Menedżer Zadań.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Pomyślnie otworzono program MyStore.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "Mystore - Nie można uruchomić",
+      "issuetype": {
+        "name": "Usługa"
+      },
+      "customfield_10010": "458"
+    }
+  }
+},
+
+
+
+{
+  "name": "KVS@0 - nie działa dotyk",
+  "shortcut": "--kvsdotyk",
+  "type": "kvs",
+  "text": "Opis zgłaszanego problemu:\n\tRestauracja zgłasza że na ekranie @0 nie działa dotyk, nie można skasować zamówień.\n\tZ poziomu podglądu VNC dotyk działa prawidłowo.\n\nWykonane działania naprawcze:\n\tRestauracja przeczyściła ekran z uwzględnieniem rogów ekranu.\n\tPrzepięto kabel USB odpowiadający za dotyk do innego, wolnego złącza USB.\n\tPo wykonaniu tej czynności, @1\n\n@2\n\nZaplanowane działania/podsumowanie:\n\t@3",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja zgłasza że na ekranie @0 nie działa dotyk, nie można skasować zamówień.<br>Z poziomu podglądu VNC dotyk działa prawidłowo.<br><br><b>Wykonane działania naprawcze:</b><br>Restauracja przeczyściła ekran z uwzględnieniem rogów ekranu.<br>Przepięto kabel USB odpowiadający za dotyk do innego, wolnego złącza USB.<br>Po wykonaniu tej czynności, @1<br><br>@2<br><br><b>Zaplanowane działania/podsumowanie:</b><br>@3",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "KVS@0 - nie działa dotyk",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      },
+      "customfield_11253": {
+        "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11346",
+        "value": "Inne - proszę wskazać w opisie zgłoszenia",
+        "id": "11346"
+      }
+    }
+  }
+},
+
+{
+  "name": "Mystore - Restart hasła managera",
+  "shortcut": "--mshaslo",
+  "type": "ms",
+  "text": "Opis zgłaszanego problemu:\n\tManager zgłasza że nie może zalogować się na swoje konto w Mystore.\n\tW restauracji nie ma żadnej innej osoby z uprawnieniami do resetu hasła.\n\nWykonane działania naprawcze:\n\tZrestartowano hasło za pomocą MystoreSupportTool.\n\tWpisano hasło tymczasowe dla managera.\n\nZaplanowane działania/podsumowanie:\n\tManager ma teraz możliwość ustawienia nowego hasła, zgodnego z standardami bezpieczeństwa.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Manager zgłasza że nie może zalogować się na swoje konto w Mystore.<br>W restauracji nie ma żadnej innej osoby z uprawnieniami do resetu hasła.<br><br><b>Wykonane działania naprawcze:</b><br>Zrestartowano hasło za pomocą MystoreSupportTool.<br>Wpisano hasło tymczasowe dla managera.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Manager ma teraz możliwość ustawienia nowego hasła, zgodnego z standardami bezpieczeństwa.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "Mystore - Restart hasła managera",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      },
+      "customfield_11253": {
+        "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11346",
+        "value": "Inne - proszę wskazać w opisie zgłoszenia",
+        "id": "11346"
+      }
+    }
+  }
+},
+
+
+{
+  "name": "Asista - Pytanie jak wykonać korektę błędnie wbitych strat",
+      "type": "inne",
+
+  "shortcut": "--korekta",
+  "text": "Opis zgłaszanego problemu:\n\tRestauracja błędnie wbiła nieprawidłową ilość produktu przy inwentaryzacji, pytają czy jest możliwość poprawy tych danych.\n\nWykonane działania naprawcze:\n\tPoproszono restauracje o utworzenie zgłoszenia na Asista, wybranie kategorii zgłoszenia \"Korekta błędnie wbitych strat\" i opisanie sytuacji w zgłoszeniu.\n\nZaplanowane działania/podsumowanie:\n\tPrzyjęto informacje. Restauracja skontaktuje się w razie problemów.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja błędnie wbiła nieprawidłową ilość produktu przy inwentaryzacji, pytają czy jest możliwość poprawy tych danych.<br><br><b>Wykonane działania naprawcze:</b><br>Poproszono restauracje o utworzenie zgłoszenia na Asista, wybranie kategorii zgłoszenia \"Korekta błędnie wbitych strat\" i opisanie sytuacji w zgłoszeniu.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Przyjęto informacje. Restauracja skontaktuje się w razie problemów.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "Asista - Pytanie jak wykonać korektę błędnie wbitych strat",
+      "issuetype": {
+        "name": "Usługa"
+      },
+      "customfield_10010": "458"
+    }
+  }
+},
+
+{
+  "name": "CSO - Nieaktualne tapety",
+      "type": "cso",
+
+  "shortcut": "--csotapeta",
+  "text": "Opis zgłaszanego problemu:\n\tRestauracja zgłasza że mają nieaktualne tapety na kioskach, aktualnie mają promocję:\n\nWykonane działania naprawcze:\n\tPodegrano pliki images oraz videos z innej restauracji w której grafiki są zgodne na gsc01.\n\nZaplanowane działania/podsumowanie:\n\tPrzesłano nową, zrekalkulowaną konfigurację na ekrany eProduction.\n\tPoinformowano że tapety niedługo załadują się samoczynnie, restauracja skontaktuje się w razie problemów.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja zgłasza że mają nieaktualne tapety na kioskach, aktualnie mają promocję:<br><br><b>Wykonane działania naprawcze:</b><br>Podegrano pliki images oraz videos z innej restauracji w której grafiki są zgodne na gsc01.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Przesłano nową, zrekalkulowaną konfigurację na ekrany eProduction.<br>Poinformowano że tapety niedługo załadują się samoczynnie, restauracja skontaktuje się w razie problemów.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "CSO - Nieaktualne tapety",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      },
+      "customfield_11253": {
+        "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11346",
+        "value": "Inne - proszę wskazać w opisie zgłoszenia",
+        "id": "11346"
+      }
+    }
+  }
+},
+     
+     {
+      "name": "CSOxx - niedostępny",
+      "type": "cso",
+
+      "shortcut": "--csonie",
+      "text": "Opis zgłaszanego problemu:\n\tRestauracja zgłasza problem z kioskiem, na ekranie kiosku wyświetla się komunikat \"Niedostępny\".\n\nDziałania podjęte przez restaurację:\n\nWykonane działania naprawcze:\n\t1. Czy kiosk jest zalogowany?\n\t2. Czy RFM na kiosku jest zgodna z GSC01?\n\t3. Czy dzień biznesowy jest prawidłowy?\n\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja zgłasza problem z kioskiem, na ekranie kiosku wyświetla się komunikat \"Niedostępny\".<br><br>Działania podjęte przez restaurację:<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy kiosk jest zalogowany?</li><li>Czy RFM na kiosku jest zgodna z GSC01? </li><li>Czy dzień biznesowy jest prawidłowy?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "CSOxx - niedostępny",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"37",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },
+
+
+
+
+     {
+      "name": "POS/CSOxx - Teminal nie działa",
+      "type": "cso",
+
+      "shortcut": "--term",
+      "text": " Opis zgłaszanego problemu:\n\tUrządzenie zawieszone, nie reaguje na próbę płatności.\n\nWykonane działania naprawcze:\n\t1. Czy terminal odpowiada w sieci(pinguje)?\n\t2. Czy na kasie wyświetla się komunikat?\n\t3. Czy wyświetla się standardowy ekran terminala?\n\t4. Czy wykonano restart terminala?\n\t5. Czy wykonano zamknięcie dnia na terminalu?  \n\nZaplanowane działania/podsumowanie:",
+      "html": " <b>Opis zgłaszanego problemu:</b><br>Urządzenie zawieszone, nie reaguje na próbę płatności.<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy terminal odpowiada w sieci(pinguje)?</li><li>Czy na kasie wyświetla się komunikat?</li><li>Czy wyświetla się standardowy ekran terminala?</li><li>Czy wykonano restart terminala?</li><li>Czy wykonano zamknięcie dnia na terminalu?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "POS/CSOxx - Teminal nie przyjmuje płatności",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"37",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },
+
+
+{
+  "name": "Brak kafelka promocji lokalnej",
+      "type": "pos",
+
+  "shortcut": "--lsm",
+  "text": "Opis zgłaszanego problemu:\n\tNa kasie brakuje kafelka z promocją lokalną: \" \".\n\tZdjęcie aktualnego stanu kasy:\n\tZweryfikowano w Kalendarzu Promocji Lokalnych, czy promocja ma się pojawić. Tak.\n\tPromocja jest nie/dostępna na kioskach.\n\nWykonane działania naprawcze:\n\tSprawdzono aktualność paczki RFM - aktualna z zasobem.\n\tPoniżej screen:\n\nZaplanowane działania/podsumowanie:\n\tPrzekazuje do działu konfiguracji Restaurant Configuration w celu dodania kafelka.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Na kasie brakuje kafelka z promocją lokalną: \" \".<br>Zdjęcie aktualnego stanu kasy:<br>Zweryfikowano w Kalendarzu Promocji Lokalnych, czy promocja ma się pojawić. Tak.<br>Promocja jest nie/dostępna na kioskach.<br><br><b>Wykonane działania naprawcze:</b><br>Sprawdzono aktualność paczki RFM - aktualna z zasobem.<br>Poniżej screen:<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Przekazuje do działu konfiguracji Restaurant Configuration w celu dodania kafelka.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "POSxx - Brak kafelka promocji lokalnej",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      }
+    }
+  }
+},
+
+
+
+{
+  "name": "MOP - Brak fiskalizacji",
+      "type": "mop",
+
+  "shortcut": "--mob",
+  "text": "Opis zgłaszanego problemu:\n\tZamówienia mobilne/delivery zostają odrzucane, na ekranie KVS09 wyskakuje komunikat:\n\nWykonane działania naprawcze:\n\t1. Czy drukarka odpowiada w sieci (pinguje)?\n\t2. Czy drukarka była restartowana?\n\t3. Komunikat na waystation:\n\t4. Czy wykonano restart komunikacji?\n\nZaplanowane działania/podsumowanie:\n",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Zamówienia mobilne/delivery zostają odrzucane, na ekranie KVS09 wyskakuje komunikat:<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy drukarka odpowiada w sieci (pinguje)?</li><li>Czy drukarka była restartowana?</li><li>Komunikat na waystation:</li><li>Czy wykonano restart komunikacji?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "MOP - Brak fiskalizacji",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_11253": {
+        "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11342",
+        "value": "Zamówienia mobilne MOP",
+        "id": "11342"
+      }
+    }
+  }
+}
+     
+     ,
+
+{
+  "name": "oDMB - Brak podsumownaia",
+      "type": "pos",
+
+  "shortcut": "--odmb1",
+  "text": "Opis zgłaszanego problemu:\n\tUrządzenie jest włączone i wyświetla materiał promocyjny, lecz nie pokazuje dla gościa podsumowania produktów nabitych na kasie.\n\tKomunikat \"COD używane przez POS\" wyświetla się na ekranie kasy.\n\nWykonane działania naprawcze:\n\tWykonano restart prądowy na kasach pos01, pos02.\n\nZaplanowane działania/podsumowanie:\n\tPoproszono restauracje o weryfikacje po uruchomieniu ekranów. Restauracja skontaktuje się w razie problemów.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Urządzenie jest włączone i wyświetla materiał promocyjny, lecz nie pokazuje dla gościa podsumowania produktów nabitych na kasie.<br>Komunikat \"COD używane przez POS\" wyświetla się na ekranie kasy.<br><br><b>Wykonane działania naprawcze:</b><br>Wykonano restart prądowy na kasach pos01, pos02.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Poproszono restauracje o weryfikacje po uruchomieniu ekranów. Restauracja skontaktuje się w razie problemów.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "oDMB - Brak podsumownaia",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+  "customfield_11253": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11346",
+      "value": "Inne - proszę wskazać w opisie zgłoszenia",
+      "id": "11346"
+    }
+    }
+  }
+},
+     {
+      "name": "Autorelease - nie wpada",
+      "type": "mop",
+
+      "shortcut": "--ar",
+      "text": "Opis zgłaszanego problemu:\n\tParagony fiskalne nie drukują się automatycznie z drukarki fiskalnej MOP.\n\nWykonane działania naprawcze:\n\t1. Czy wykonano restart komunikacji?\n\t2. Czy kody autorelease są odblokowane?\n\t3. Czy drukarka fiskalna MOP działa prawidłowo?\n\t4. Przykładowe numery zamówienia:\n\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Paragony fiskalne nie drukują się automatycznie z drukarki fiskalnej MOP.<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart komunikacji?</li><li>Czy kody autorelease są odblokowane?</li><li>Czy drukarka fiskalna MOP działa prawidłowo?</li><li><u>Przykładowe numery zamówienia:</u></li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "Autorelease - nie wpada automatycznie",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"36",
+                    "customfield_10065":{"id":"10067"}
+                }
+            }
+     },
+     {
+      "name": "MyStore - dostawa nie zaksięgowała się",
+      "type": "ms",
+
+      "shortcut": "--msdost",
+      "text": "Opis zgłaszanego problemu:\n\tRestauracja zgłasza problem z niezaksięgowaną dostawą w MyStore. \nDziałania podjęte przez restaurację: \n\nWykonane działania naprawcze:\n\t1.Czy dostawa została potwierdzona w Havi Connect, a jeśli tak, to kiedy? \n\t2.Czy dostawa znajduje się w dokumentach w MyStore? \n\t3.Czy paczka z dostawą znajduje się na GSC01?\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b> <br>Restauracja zgłasza problem z niezaksięgowaną dostawą w MyStore. <br><b>Działania podjęte przez restaurację:</b><br><br><b>Wykonane działania naprawcze:</b><br><ol><li>Czy dostawa została potwierdzona w Havi Connect, a jeśli tak, to kiedy?<li>Czy dostawa znajduje się w dokumentach w MyStore?<li>Czy paczka z dostawą znajduje się na GSC01?</ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "MyStore - dostawa nie zaksięgowała się",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10246"}
+                }
+            }
+     },
+     {
+      "name": "KVSxx - zawieszone zamówienie",
+      "type": "kvs",
+
+      "shortcut": "--kvszaw",
+      "text": "Opis zgłaszanego problemu:\n\tNa monitorze pojawiło się zamówienie, którego nie da się skasować. \nInformacje o zawieszonym zamówieniu (Numer KVS, numer zamówienia): \n\nWykonane działania naprawcze: \n\t1.Czy zamówienie zniknęło po restarcie KVS? \nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b> <br>Na monitorze pojawiło się zamówienie, którego nie da się skasować. <br><br><b>Informacje o zawieszonym zamówieniu</b> (Numer KVS, numer zamówienia): <br><br><b>Wykonane działania naprawcze:</b><br><ol><li>Czy zamówienie zniknęło po restarcie KVS?</ol><b>Zaplanowane działania/podsumowanie:</b>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "KVSxx - zawieszone zamówienie",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },
+
+
+{
+  "name": "KVSxx - Ekran \"Admin logon\"",
+    "type": "kvs",
+
+  "shortcut": "--kvsadm",
+  "text": "Opis zgłaszanego problemu:\n\tNa ekranie KVS wyświetla się ekran Admin Logon, dzieje się to już anormalną ilość czasu.\n\nWykonane działania naprawcze:\n\tWykonano restart prądowy urządzenia.\n\nZaplanowane działania/podsumowanie:\n\tPo restarcie urządzenie załadowało system poprawnie. Restauracja skontaktuje się w razie problemów.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Na ekranie KVS wyświetla się ekran Admin Logon, dzieje się to już anormalną ilość czasu.<br><br><b>Wykonane działania naprawcze:</b><br>Wykonano restart prądowy urządzenia.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Po restarcie urządzenie załadowało system poprawnie. Restauracja skontaktuje się w razie problemów.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "KVSxx - Ekran \"Admin logon\"",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      },
+   "customfield_11253": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11343",
+      "value": "NewPOS",
+      "id": "11343"
+    }
+    }
+  }
+},
+
+     {
+      "name": "BOS/MAP - nie można się zalogować",
+      "type": "inne",
+
+      "shortcut": "--boslog",
+      "text": "Opis zgłaszanego problemu: \n\tZalogowanie do maszyny wirtualnej BackOffice / OfficePC jest niemożliwe. \nDziałania podjęte przez restaurację: \n\nWykonane działania naprawcze: \n\t1.Czy urządzenie odpowiada w sieci?\n\t2.Czy użytkownik wpisuje prawidłowe poświadczenia do logowania? \n\t3.Czy użytkownik spróbował zrestartować hasło do swojego konta imiennego przy pomocy GAM Account? \nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b> <br>Zalogowanie do maszyny wirtualnej BackOffice / OfficePC jest niemożliwe. <br><br><b>Działania podjęte przez restaurację:</b> <br><br><b>Wykonane działania naprawcze:</b> <ol><li>Czy urządzenie odpowiada w sieci? <li>Czy użytkownik wpisuje prawidłowe poświadczenia do logowania? <li>Czy użytkownik spróbował zrestartować hasło do swojego konta imiennego przy pomocy GAM Account? </ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "BOS/MAP - nie można się zalogować",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"38"
+                }
+            }
+     },
+
+
+
+
+
+{
+  "name": "MOP - Prośba o włączenie",
+  "shortcut": "--mopon",
+      "type": "mop",
+
+  "text": "Opis zgłaszanego problemu:\n\tRestauracja prosi o włączenie zamówień z aplikacji mobilnej, zgłasza gotowość do przyjmowania zamówień.\n\nWykonane działania naprawcze:\n\tZdjęto tag override na Market Engine.\n\nZaplanowane działania/podsumowanie:\n\tPrzekazano restauracji informacje że wdrożenie zmiany może zająć do kilku minut.\n\tPoproszono o kontakt w razie problemów.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja prosi o włączenie zamówień z aplikacji mobilnej, zgłasza gotowość do przyjmowania zamówień.<br><br><b>Wykonane działania naprawcze:</b><br>Zdjęto tag override na Market Engine.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Przekazano restauracji informacje że wdrożenie zmiany może zająć do kilku minut.<br>Poproszono o kontakt w razie problemów.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+     "summary": "MOP - Prośba o włączenie",
+      "issuetype": {
+        "name": "Usługa"
+      },
+      "customfield_10010": "459",
+         "customfield_10624": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/10871",
+      "value": "Włączenie MOP",
+      "id": "10871"
+    }
+    }
+  }
+},
+
+{
+  "name": "MOP - Prośba o wyłączenie",
+      "type": "mop",
+
+  "shortcut": "--mopoff",
+  "text": "Opis zgłaszanego problemu:\n\tRestauracja prosi o wyłączenie zamówień z aplikacji mobilnej.\n\nWykonane działania naprawcze:\n\tZałożono tag override na Market Engine.\n\nZaplanowane działania/podsumowanie:\n\tPrzekazano restauracji informacje że wdrożenie zmiany może zająć do kilku minut.\n\tPoproszono o kontakt w razie problemów.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja prosi o wyłączenie zamówień z aplikacji mobilnej.<br><br><b>Wykonane działania naprawcze:</b><br>Założono tag override na Market Engine.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Przekazano restauracji informacje że wdrożenie zmiany może zająć do kilku minut.<br>Poproszono o kontakt w razie problemów.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+     "summary": "MOP - Prośba o wyłączenie",
+      "issuetype": {
+        "name": "Usługa"
+      },
+      "customfield_10010": "459",
+      
+    "customfield_10624": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/10872",
+      "value": "Wyłączenie MOP",
+      "id": "10872"
+    }
+    }
+  }
+},
+
+{
+  "name": "POSxx - Nieprawidłowy dzień biznesowy",
+      "type": "pos",
+
+  "shortcut": "--posdzien",
+  "text": "Opis zgłaszanego problemu:\n\tNa kasie nie otworzył się nowy dzień biznesowy. Blokuje to używanie kasy.\n\tPoniżej screen z waystation:\n\nWykonane działania naprawcze:\n\tZamknięto stary dzień poprzez waystation, otworzono dzisiejszy poprawny dzień.\n\nZaplanowane działania/podsumowanie:\n\tKasa działa poprawnie, można teraz zalogować kasjera.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Na kasie nie otworzył się nowy dzień biznesowy. Blokuje to używanie kasy.<br>Poniżej screen z waystation:<br><br><b>Wykonane działania naprawcze:</b><br>Zamknięto stary dzień poprzez waystation, otworzono dzisiejszy poprawny dzień.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Kasa działa poprawnie, można teraz zalogować kasjera.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "POSxx - Nieprawidłowy dzień biznesowy",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      }
+    }
+  }
+},
+
+     {
+      "name": "EPR02 - Brak podsumowania",
+      "type": "epr",
+
+      "shortcut": "--epr2",
+    "text": "Opis zgłaszanego problemu:\n\tUrządzenie pokazuje aktualne zamówienia, lecz nie pokazuje podsumowania ani stanu przewidywanych koszy z frytkami.\n\nWykonane działania naprawcze:\n\tWykonano zdalny restart prądowy urządzenia.\n\nZaplanowane działania/podsumowanie:\n\tPo restacie prądowym, urządzenie działa poprawnie.\n\tZrzut ekranu po restarcie:",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Urządzenie pokazuje aktualne zamówienia, lecz nie pokazuje podsumowania ani stanu przewidywanych koszy z frytkami.<br><br><b>Wykonane działania naprawcze:</b><br>Wykonano zdalny restart prądowy urządzenia.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Po restacie prądowym, urządzenie działa poprawnie.<br>Zrzut ekranu po restarcie:",
+  "category": "zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "EPR02 - Brak podsumowania",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                          "customfield_10062": {
+        "id": "10246"
+      }
+                }
+            }
+     },
+{
+  "name": "KVSxx - zawieszone zamówienie",
+      "type": "kvs",
+
+  "shortcut": "--kvsstuck",
+  "text": "Opis zgłaszanego problemu:\n\tNa ekranie kuchennym pokazuje się zamówienie którego nie można skasować ani przesłać w żaden sposób dalej.\n\tMa ono status:\n\nWykonane działania naprawcze:\n\tSpróbowano usunąć zamówienie z poziomu kasy funkcją Soft BumpBar, nieskutecznie.\n\nZaplanowane działania/podsumowanie:\n\tPoinformowano że zamówienie zniknie samoczynnie z biegiem czasu i nie wliczy się ono do średnich czasów obsługi.\n\tPrzyjęto informację.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Na ekranie kuchennym pokazuje się zamówienie którego nie można skasować ani przesłać w żaden sposób dalej.<br>Ma ono status:<br><br><b>Wykonane działania naprawcze:</b><br>Spróbowano usunąć zamówienie z poziomu kasy funkcją Soft BumpBar, nieskutecznie.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Poinformowano że zamówienie zniknie samoczynnie z biegiem czasu i nie wliczy się ono do średnich czasów obsługi.<br>Przyjęto informację.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "KVSxx - zawieszone zamówienie",
+      "issuetype": {
+        "name": "Usługa"
+      },
+      "customfield_10010": "459"
+    }
+  }
+},
+
+
+{
+  "name": "EPR12 - zawieszony",
+      "type": "epr",
+
+  "shortcut": "--epr12",
+  "text": "Opis zgłaszanego problemu:\n\tNa ekranie kuchennym od wyświetlania mięs do wstawienia na grilla, nie da się zbić mięs.\n\tEkran nie reaguje na dotyk fizyczny, ani z poziomu podglądu VNC.\n\nWykonane działania naprawcze:\n\tWykonano restart prądowy urządzenia.\n\nZaplanowane działania/podsumowanie:\n\tPo restarcie przetestowano z restauracją działanie - działa poprawnie.\n\tPoproszono o kontakt w razie problemów.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Na ekranie kuchennym od wyświetlania mięs do wstawienia na grilla, nie da się zbić mięs.<br>Ekran nie reaguje na dotyk fizyczny, ani z poziomu podglądu VNC.<br><br><b>Wykonane działania naprawcze:</b><br>Wykonano restart prądowy urządzenia.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Po restarcie przetestowano z restauracją działanie - działa poprawnie.<br>Poproszono o kontakt w razie problemów.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "EPR12 - zawieszony",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      }
+    }
+  }
+},
+
+
+{
+  "name": "EPR01 - Zerowe wartości",
+      "type": "epr",
+
+  "shortcut": "--epr1",
+  "text": "Opis zgłaszanego problemu:\n\tNa ekranie eProduction, niektóre kafelki wyświetlają cały czas zerowe wartości.\n\nWykonane działania naprawcze:\n\tWykonano rekalkulacje danych na podstawie ostatnich dni biznesowych, przesłano ponownie konfigurację. Ekrany samoczynnie się zrestartowały.\n\nZaplanowane działania/podsumowanie:\n\tDo weryfikacji po uruchomieniu ekranów. Restauracja skontaktuje się w razie problemów.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Na ekranie eProduction, niektóre kafelki wyświetlają cały czas zerowe wartości.<br><br><b>Wykonane działania naprawcze:</b><br>Wykonano rekalkulacje danych na podstawie ostatnich dni biznesowych, przesłano ponownie konfigurację. Ekrany samoczynnie się zrestartowały.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Do weryfikacji po uruchomieniu ekranów. Restauracja skontaktuje się w razie problemów.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "EPR01 - Zerowe wartości",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      }
+    }
+  }
+},
+
+
+
+
+{
+  "name": "EPR12 - Zerowe wartości",
+      "type": "epr",
+
+  "shortcut": "--epr0",
+  "text": "Opis zgłaszanego problemu:\n\tNa ekranie kuchennym od wyświetlania mięs do wstawienia na grilla, wszystkie kategorię wyświetlają wartości zero.\n\nWykonane działania naprawcze:\n\t1. Wykonano rekalkulację ustawień eProduction.\n\t2. Przesłano nową, zrekalkulowaną konfigurację na ekrany eProduction.\n\t3. Ekrany wykonały samoczynny restart.\n\nZaplanowane działania/podsumowanie:\n\tPo przesłaniu konfiguracji ekran wyświetla poprawne wartości.\n\tPoproszono o kontakt w razie problemów.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Na ekranie kuchennym od wyświetlania mięs do wstawienia na grilla, wszystkie kategorię wyświetlają wartości zero.<br><br><b>Wykonane działania naprawcze:</b><ol><li>Wykonano rekalkulację ustawień eProduction.</li><li>Przesłano nową, zrekalkulowaną konfigurację na ekrany eProduction.</li><li>Ekrany wykonały samoczynny restart.</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>Po przesłaniu konfiguracji ekran wyświetla poprawne wartości.<br>Poproszono o kontakt w razie problemów.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "EPR12 - Zerowe wartości",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      }
+    }
+  }
+},
+
+
+
+{
+  "name": "Wyjście z rejestrowania zwrotu.",
+      "type": "pos",
+
+  "shortcut": "--refund",
+  "text": "Opis zgłaszanego problemu:\n\tRestauracja uruchomiła tryb rejestrowania zwrotu/strat na kasie i prosi o wyłączenie go.\n\nWykonane działania naprawcze:\n\tPoinformowano że można to zrobić samodzielnie za pomocą \"Anuluj zwroty i refund\" w menu kasjera.\n\nZaplanowane działania/podsumowanie:\n\tPomyślnie wyjście z trybu rejestrowania zwrotu/strat.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja uruchomiła tryb rejestrowania zwrotu/strat na kasie i prosi o wyłączenie go.<br><br><b>Wykonane działania naprawcze:</b><br>Poinformowano że można to zrobić samodzielnie za pomocą \"Anuluj zwroty i refund\" w menu kasjera.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Pomyślnie wyjście z trybu rejestrowania zwrotu/strat.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+     "summary": "Newpos - Pomoc z wyjściem z rejestrowania zwrotu/strat na kasie",
+
+      "issuetype": {
+        "name": "Usługa"
+      },
+      "customfield_10010": "458"
+    }
+  }
+},
+
+
+
+
+{
+  "name": "Oddzwonienie - brak info",
+      "type": "inne",
+
+  "shortcut": "--callback",
+  "text": "Opis zgłaszanego problemu:\n\tDo dzwoniącego ktoś z naszego zespołu próbował się wcześniej skontaktować. Nie posiadamy informacji, kto wcześniej próbował się z nim kontaktować ani z jakiego działu pochodziło połączenie.\n\nWykonane działania naprawcze:\n\tZweryfikowano zgłoszenia oraz dostępne informacje. Brak możliwości ustalenia osoby lub zespołu, który wykonywał wcześniejszą próbę kontaktu.\n\nZaplanowane działania/podsumowanie:\n\tPoinformowano dzwoniącego o braku danych dotyczących wcześniejszego kontaktu.\n\tW razie gdyby udało się ustalić kto dzwonił, ta osoba skontaktuje się z dzwoniącym.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Do dzwoniącego ktoś z naszego zespołu próbował się wcześniej skontaktować. Nie posiadamy informacji, kto wcześniej próbował się z nim kontaktować ani z jakiego działu pochodziło połączenie.<br><br><b>Wykonane działania naprawcze:</b><br>Zweryfikowano zgłoszenia oraz dostępne informacje. Brak możliwości ustalenia osoby lub zespołu, który wykonywał wcześniejszą próbę kontaktu.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Poinformowano dzwoniącego o braku danych dotyczących wcześniejszego kontaktu.<br>W razie gdyby udało się ustalić kto dzwonił, ta osoba skontaktuje się z dzwoniącym.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "Zapytanie dotyczące wcześniejszego połączenia",
+      "issuetype": {
+        "name": "Usługa"
+      },
+      "customfield_10010": "458"
+    }
+  }
+},
+
+
+
+
+
+     
+{
+  "name": "Instrukcja odblokowywania produktów",
+      "type": "pos",
+
+  "shortcut": "--odblokowanie",
+  "text": "Opis zgłaszanego problemu:\n\tRestauracja prosi o instrukcje jak blokować produkty na kasie.\n\nWykonane działania naprawcze:\n\t1. Poinformowano że można to zrobić w menu kasjera za pomocą guzika \"Blokowanie półproduktów\". Aby blokować/odblokowywać produkty należy najpierw włączyć \"Tryb Blokowania\" i wtedy wybierać produkty które chce się odblokować/zablokować.\n\t2. Po wybraniu produktów, należy kliknąć ponownie \"Blokowanie półproduktów\", a następnie wybrać \"Zapisz zmiany\".\n\nZaplanowane działania/podsumowanie:\n\tRestauracja przyjęła wiadomość.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja prosi o instrukcje jak blokować produkty na kasie.<br><br><b>Wykonane działania naprawcze:</b><ol><li>Poinformowano że można to zrobić w menu kasjera za pomocą guzika \"Blokowanie półproduktów\". Aby blokować/odblokowywać produkty należy najpierw włączyć \"Tryb Blokowania\" i wtedy wybierać produkty które chce się odblokować/zablokować.</li><li>Po wybraniu produktów, należy kliknąć ponownie \"Blokowanie półproduktów\", a następnie wybrać \"Zapisz zmiany\".</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>Restauracja przyjęła wiadomość.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "Newpos - Instrukcja odblokowywania produktów",
+      "issuetype": {
+        "name": "[System] Incident"
+      },
+      "customfield_10010": "33",
+      "customfield_10062": {
+        "id": "10246"
+      }
+    }
+  }
+},
+
+
+
+
+     {
+      "name": "MyStore - background service nie gotowy",
+      "type": "ms",
+
+      "shortcut": "--bserv",
+      "text": "Opis zgłaszanego problemu:\n\tLogowanie do aplikacji MyStore jest niemożliwe.\nPo uruchomieniu aplikacji wyskakuje komunikat \"Background Serivce nie jest gotowy\".\n\nDziałania podjęte przez restaurację:\n\nWykonane działania naprawcze:\n\t1. Czy wykonano restart procesów MyStore?\n\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Logowanie do aplikacji MyStore jest niemożliwe.<br>Po uruchomieniu aplikacji wyskakuje komunikat \"Background Serivce nie jest gotowy\".<br><br>Działania podjęte przez restaurację:<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart procesów MyStore?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "MyStore - background service nie gotowy",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10246"}
+                }
+            }
+     },
+     {
+      "name": "CFS - Aw, Snap!",
+      "type": "inne",
+
+      "shortcut": "--snap",
+      "text": "Opis zgłaszanego problemu:\n\tNa monitorze CFS wyświetla się błąd: Aw, Snap!\nDziałania podjęte przez restaurację:\n\nWykonane działania naprawcze:\n\t1. Czy wykonano restart MediaPlayera CFS?\n\nZaplanowane działania/podsumowanie:",
+      "html": "<b>Opis zgłaszanego problemu:</b><br>Na monitorze CFS wyświetla się błąd: Aw, Snap!<br><br>Działania podjęte przez restaurację:<br><br><b>Wykonane działania naprawcze:</b><ol><li>Czy wykonano restart MediaPlayera CFS?</li></ol><b>Zaplanowane działania/podsumowanie:</b><br>",
+      "category":"zgloszenie",
+      "payload":{
+                "fields": {
+                    "summary": "CFS - Aw, Snap!",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"40",
+                    "customfield_10214": [{
+                                            "workspaceId": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14",
+                                            "id": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14:1102",
+                                            "objectId": "1102"
+                                        }],
+                    "customfield_10497":[{
+                                            "workspaceId": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14",
+                                            "id": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14:116830",
+                                            "objectId": "116830"
+                                        }],
+                    "customfield_10082": [{
+                                            "workspaceId": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14",
+                                            "id": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14:139852",
+                                            "objectId": "139852"
+                                        }]
+                }
+            }
+     },
+
+{
+  "name": "Pomoc w edycji odbić czasowych",
+      "type": "ms",
+
+  "shortcut": "--timeedit",
+  "text": "Opis zgłaszanego problemu:\n\tRestauracja prosi o pomoc w edycji odbić czasowych.\n\nWykonane działania naprawcze:\n\tPrzekazano informację w jaki sposób edytować odbicia, by nie nakładały się na siebie i by była możliwość zapisania edycji odbić.\n\nZaplanowane działania/podsumowanie:\n\tPrzyjęto informacje, restauracja skontaktuje się w razie problemów.",
+  "html": "<b>Opis zgłaszanego problemu:</b><br>Restauracja prosi o pomoc w edycji odbić czasowych.<br><br><b>Wykonane działania naprawcze:</b><br>Przekazano informację w jaki sposób edytować odbicia, by nie nakładały się na siebie i by była możliwość zapisania edycji odbić.<br><br><b>Zaplanowane działania/podsumowanie:</b><br>Przyjęto informacje, restauracja skontaktuje się w razie problemów.",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "MyStore - Prośba o pomoc w edycji odbić czasowych",
+      "issuetype": {
+        "name": "Usługa"
+      },
+      "customfield_10010": "458"
+    }
+  }
+},
+
+
+
+
+{
+  "name": "Nowy test",
+      "type": "inne",
+
+  "argumenty" : 2,
+  "shortcut": "--test",
+  "text": "Opis zgłaszanego problemu:\n\t @1, @2, @3, @4",
+  "html": "<b>Opis zgłaszanego problemu:</b><br> @1, @2, @3, @4, @5 @6 @1 @1 @3 @2 @4",
+  "category": "zgloszenie",
+  "payload": {
+    "fields": {
+      "summary": "NOWY TEST ZGLOSZENIE",
+      "issuetype": {
+        "name": "Usługa"
+      },
+      "customfield_10010": "458"
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+   ]
+}
+

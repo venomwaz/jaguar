@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Skróty</title>
+    <link rel="stylesheet" href="sidepanel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <p id="userGreeting" style="font-size: 10px; float: inline-end;"></p>
+    <h1>📋 Twoje skróty</h1>
+    <nav class="navMenu">
+    <center>
+      <a href="#" id="obecne">Skróty</a>
+      <a href="Pomocne/helpful.html" >Pomocne</a>
+      <!-- <a href="OpisKVS/descriptionKVS.html">Opis KVS</a> -->
+      <a href="#" id="refresh"><i class="fa-solid fa-arrows-rotate"></i></a>
+    </center>
+        <div class="boxik">
+    <label>Czy wyświetlać guziki?</label>
+    <input type="checkbox" id="czy_guziki">
+    </div>
+    </nav>
+    <hr>
+
+    <input type="text" id="search" placeholder="Szukaj...">
+    <div class = "menu_kategorii">
+<button id ="kategoria_1" name = "wszystko" >Wszystkie</button>
+<button id ="kategoria_2" name = "kvs" >KVS</button>
+<button id ="kategoria_3" name = "pos" >POS</button>
+<button id ="kategoria_4" name = "cso" >CSO</button>
+<button id ="kategoria_5" name = "epr" >EPR</button>
+<button id ="kategoria_6" name = "ms" >Mystore</button>
+<button id ="kategoria_7" name = "mop" >DLV/MOP</button>
+<button id ="kategoria_8" name = "inne" >INNE</button>
+    </div>
+    
+    <div id="lists">
+        <ul id="liderShortcutsList"></ul>
+        <h1><i class="fa fa-star" aria-hidden="true"></i><hr></h1>
+        <ul id="shortcutsList"></ul>
+        <h1><i class="fa fa-star" aria-hidden="true"></i> Tytuły</h1>
+        <ul id="specialList"></ul>
+    </div>
+
+    <script src="../Libs/purify.min.js"></script>
+    <script src="sidepanel.js"></script>
+</body>
+<footer>
+        <div style="text-align: center; margin-top: 0;">
+        <a href="mailto:adrian.gaszewski@pl.mcd.com; artur.cholewski@pl.mcd.com?subject=Zgłoszenie%20problemu&body=Opisz%20swój%20problem%20tutaj..."
+           style="color: #FFCC00; text-decoration: underline; font-weight: bold; padding-bottom: 0;">
+            Zgłoś problem / wyślij opinię
+        </a>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,22 @@
+{
+  "ping": {
+    "question": "Czy urządzenie pinguje?",
+    "yes": "Urządzenie odpowiada w sieci, sprawdzono za pomocą komendy Ping.",
+    "no": "Urządzenie NIE odpowiada w sieci, sprawdzono za pomocą komendy Ping."
+  },
+  "restart": {
+    "question": "Czy urządzenie było restartowane?",
+    "yes": "Urządzenie było restartowane prądowo.",
+    "no":  "Urządzenie NIE było restartowane prądowo."
+    },
+  "rfm": {
+    "question": "Czy rfm jest aktualne z waystation?",
+    "yes": "Wersja aktualizacji RFM zgodna z wersją na waystation.",
+    "no":  "Wersja aktualizacji RFM NIE zgodna z wersją na waystation."
+  },
+  "ekran": {
+    "question": "Czy na ekranie jest zwyczajny screen?",
+    "yes": "Na urządzeniu wyświetla się ten ekran, co zazwyczaj.",
+    "no":  "Na urządzeniu wyświetla się niezwyczajny ekran/komunikat: "
+  }
+}

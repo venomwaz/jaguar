@@ -1,0 +1,14 @@
+     {
+      "name": "testowe",
+      "shortcut": "--test",
+      "text": "testowy opis",
+      "html": "testowy html",
+      "payload":{
+                "fields": {
+                    "summary": "testowa zmiana tytułu",
+                    "issuetype":{"name":"[System] Incident"},
+                    "customfield_10010":"33",
+                    "customfield_10062":{"id":"10055"}
+                }
+            }
+     },

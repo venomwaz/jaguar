@@ -1,0 +1,37 @@
+{
+   "snippets": [
+    {
+      "name": "OP trigger na hajs",
+      "text": "http://localhost:8731/SMSService/Interface/NewPos6/TriggerDailyInternationalCashUpload?BusinessDay=20250515&importMonth=true&forced=true"
+    },
+    {
+      "name": "Carl Sagan",
+      "text": "3,Carl Sagan,86,99991231,1fb29bb392c5556ef6e45c4339865,82f1c1e91a1ab48aa92c279e63d8362e"
+    },
+    {
+      "name": "Przesłanie pracowników do TR",
+      "text": "http://localhost:8745/SMSService/Interface/TD10/AddOrOverwriteEmployeeData"
+    },
+
+    {
+      "name": "Synchronizacja czasów na GSC/POS/CSO",
+      "text": "w32tm /config /syncfromflags:domhier /updatew32tm /resync \nw32tm /resync"
+    },
+    {
+      "name": "Stopka SD",
+      "text": "Pozdrawiam / Regards,\nServiceDesk HAVI IT dla McDonald’s Polska\nHAVI Logistics Sp. z o. o. Marynarska 15, 02-691 Warsaw, Poland\n| email: pl-servicedesk@pl.mcd.com | tel. +48 22 300 18 20 |"
+    },
+
+
+        {
+      "name": "Przelogowanie na admina",
+      "text": "C:/Program Files (x86)/McDonalds/McDonalds Provisioning Tool/McD.Provisioning.Windows.UI.exe /admin"
+    },
+            {
+      "name": "CSO wyłączanie hibernacji",
+      "text": "powercfg /hibernate off"
+    }
+
+  ]
+}
+

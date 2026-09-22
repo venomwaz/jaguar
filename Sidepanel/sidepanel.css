@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #22272B;
+    color: #fff;
+}
+
+
+h1 {
+    color: #FFCC00;
+}
+
+#search {
+    text-align: center;
+    width: 90%;
+    padding: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+
+#lists {
+    height: 85vh;
+    overflow-y: auto; /* Add vertical scrollbar */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+li {
+    background-color: #22272B;
+    border-bottom: 1px solid #FFCC00;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px; /* Rounded corners for elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    overflow: hidden; /* Ensure text does not overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Limit to 5 lines */
+    line-clamp: 5; /* Standard property for compatibility */
+    -webkit-box-orient: vertical;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.odd {
+    background-color: #3c4146;
+}
+
+#liderShortcutsList li:hover {
+    background-color: #c69e00; /* Change background color on hover */
+}
+
+#specialList li:hover {
+    background-color: #c69e00; /* Change background color on hover */
+}
+
+#shortcutsList li:hover {
+    background-color: #c69e00; /* Change background color on hover */
+}
+
+#shortcutsList {
+    list-style-type: none;
+    margin-right: 10px;
+    /* max-width: 600px;  */
+    margin-bottom: 50px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgb(255, 255, 255); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FFCC00; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff; 
+  }
+
+
+.name {
+    flex: 1;
+    margin-left: 10px;
+    color: #22272B;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#obecne{
+    color: #FFCC00;
+}
+.navMenu a {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f6f4e6;
+    text-decoration: none;
+    
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline;
+    justify-content: space-between;
+    width: 80px;
+    text-align: center;
+    border-bottom: 1px solid #FFCC00;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navMenu{
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.navMenu a:hover {
+  color: #c69e00;
+  border-bottom: 1px solid #c69e00;
+}
+hr{
+    clear:both;
+}
+
+.skrot_button{
+    height: 40px;
+    width: 35%;
+    float: right;
+    font-size: auto;
+    margin-top: 5px;
+
+        background-color: #22272B;
+    border-bottom: 1px solid #FFCC00;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px; /* Rounded corners for elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    transition: background-color 0.3s ease; 
+}
+
+.skrot_button:hover{
+    background-color: #ffe9d0;
+    color: black
+}
+
+.boxik{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+
+}
+
+label{
+        text-decoration: none;
+    color: #FFCC00;
+
+    font-size: 1em;
+    font-weight: 500;
+    display: inline;
+    justify-content: space-between;
+    width: 80px;
+    text-align: center;
+}
+
+.category {
+    background: #2d3338;
+    border: 1px solid #FFCC00;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.category-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFCC00;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 204, 0, 0.3);
+}
+
+.category-header i {
+    margin-right: 8px;
+}
+
+.menu_kategorii{
+    width: 90%;
+    margin: 5%;
+
+    height: 100px;
+    background-color: #3c4146;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    padding: 1%;
+    border: #FFCC00   2px ;
+
+}
+
+
+.menu_kategorii button {
+    border-radius: 10px;
+    border: 1px solid #FFCC00;
+    background: #2d3338;
+    color: white;
+    cursor: pointer;
+}
+
+.menu_kategorii button:hover {
+    background: #FFCC00;
+    color: black;
+}

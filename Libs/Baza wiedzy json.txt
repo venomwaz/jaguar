@@ -1,0 +1,177 @@
+
+===================== TYP ZGŁOSZEŃ =====================
+
+32 - Aktualizacje systemu
+33 - Systemy i aplikacje
+35 - Wstrzymanie sprzedaży
+36 - Delivery
+37 - Kiosk / Kasa
+38 - Pokój managerski
+39 - Raporty
+40 - Sprzęt restauracja
+41 - Serwerownia
+42 - Zamówienia inne
+92 - Incydent Informacja
+
+
+"issuetype":{"name":"[System] Incident"}
+"customfield_10010":"33",
+====================== USŁUGI TYP ZGŁOSZEŃ =======================
+
+162 - Korekta błędnie wbitych strat
+163 - MFA - Wygenerowanie nowych kodów
+326 - Zmiana statusu WRIN
+359 - Zmiana godzin usługi Delivery
+458 - Informacja
+459 - MOP - Prośba o włączenie/wyłączenie
+524 - Testy / Pilotaże / Ankiety w restauracji
+656 - Lista zablokowanych produktów
+689 - Zużycie półproduktów
+690 - Błędne odbicia czasowe w MyStore
+691 - Raport pracy pracowników
+953 - Kontakt IT Buddy
+
+=================== CUSTOM FIELDY ===================
+--------------------------------------------------------------------------------------------------------------------------------
+
+customfield_10100  - Grupa wsparcia (group)
+
+SD
+
+"customfield_10100": {
+      "name": "SD_local",
+      "groupId": "188793c1-bba1-4e0d-8da8-9dd8412312ef",
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/group?groupId=188793c1-bba1-4e0d-8da8-9dd8412312ef"
+    },
+
+    DMB
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+customfield_10494  - [POS] Kategoria urządzenia
+
+KVS
+    "customfield_10494": [
+      {
+        "workspaceId": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14",
+        "id": "fe84ae1e-3a6f-4cc8-af88-83a165b7fe14:116842",
+        "objectId": "116842"
+      }],
+
+
+
+customfield_10495  - [POS] Numer urządzenia
+
+customfield_10497  - Podkategoria urządzenia
+customfield_10082  - Urządzenie, którego dotyczy problem
+--------------------------------------------------------------------------------------------------------------------------------
+APLIKACJA 
+
+customfield_11253  - [SDN] Aplikacja
+
+  "customfield_11253": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11346",
+      "value": "Inne - proszę wskazać w opisie zgłoszenia",
+      "id": "11346"
+    },
+
+
+
+    "customfield_11253": {
+    "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11341",
+    "value": "MyStore Zamknięcie/Otwarcie",
+    "id": "11341"
+},
+
+
+
+   "customfield_11253": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11343",
+      "value": "NewPOS",
+      "id": "11343"
+    },
+
+   "customfield_11253": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11342",
+      "value": "Zamówienia mobilne MOP",
+      "id": "11342"
+    },
+
+
+    "customfield_11253": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/11399",
+      "value": "MyStore",
+      "id": "11399"
+    },
+--------------------------------------------------------------------------------------------------------------------------------
+
+customfield_10206  - Element szafy serwerowej
+customfield_10084  - Numer elementu sprzętu szafy serwerowej
+customfield_10135  - Dostawca, którego dotyczy zgłoszenie
+customfield_11252  - [SD] Typ problemu
+--------------------------------------------------------------------------------------------------------------------------------
+
+customfield_10067  - [SD] Co nie działa poprawnie?
+
+  "customfield_10067": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/10079",
+      "value": "Drukarka biurowa",
+      "id": "10079"
+    },
+
+
+  "customfield_10067": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/10415",
+      "value": "Time Recorder",
+      "id": "10415"
+    },
+
+
+
+    "customfield_10067": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/10305",
+      "value": "Office PC",
+      "id": "10305"
+    },
+--------------------------------------------------------------------------------------------------------------------------------
+
+customfield_10063  - [SD] Rodzaj raportu
+customfield_10075  - [SD] Rodzaj problemu z danymi
+customfield_10061  - [SD] Typ aktualizacji
+customfield_10827  - Pracownik, którego dotyczy problem
+
+
+customfield_10624 - STATUS MOP
+
+   "customfield_10624": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/10871",
+      "value": "Włączenie MOP",
+      "id": "10871"
+    },
+
+
+    "customfield_10624": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/10872",
+      "value": "Wyłączenie MOP",
+      "id": "10872"
+    },
+--------------------------------------------------------------------------------------------------------------------------------
+
+IT BUDDY 
+    "customfield_10186": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/10378",
+      "value": "Telefonicznie",
+      "id": "10378"
+    },
+
+  "customfield_10186": {
+      "self": "https://mcdonalds-poland.atlassian.net/rest/api/3/customFieldOption/10379",
+      "value": "Mailowo",
+      "id": "10379"
+    },
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+=============================================
