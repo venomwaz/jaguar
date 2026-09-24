@@ -74,7 +74,6 @@ function removeShortcuts() {
 async function zwroc_skroty() {
     const response = await fetch(chrome.runtime.getURL("Libs/shortcuts.json"));
     const data = await response.json();
-    console.log(data.snippets.map(snippet => snippet.shortcut));
 
     return data.snippets.map(snippet => snippet.shortcut);
 }
@@ -149,7 +148,7 @@ document.querySelector(".menu_kategorii").addEventListener("click", (e) => {
     const specialList = document.getElementById('specialList');
 
     
-    try {
+    try{
         fetch(chrome.runtime.getURL('Libs/shortcuts.json'))
             .then(response => response.json())
             .then(data => {
@@ -165,26 +164,19 @@ document.querySelector(".menu_kategorii").addEventListener("click", (e) => {
                         const text = item.textContent.toLowerCase();
                         item.style.display = text.includes(query) ? '' : 'none';
                     });
+                    ukryj_puste_kategorie();
                 });
             });
 
-
-
-
-
-
-
-
-        function addShortcutToList(name, shortcut, text, category, type ) {
+        async function addShortcutToList(name, shortcut, text, category, type ) {
             if (skrot_index == 0) {
                 skrot_index = 1;
                 return
             }
-
+            if(!type)type="kvs"
         if( wymuszony_typ !=null && type != wymuszony_typ) return
        if (last_type !== type || last_type == null) {
                    let container = document.getElementsByClassName(type)
-                   console.log(container)
                    if(container.length == 0){
 
     placeholderContainer = document.createElement("div");
@@ -200,8 +192,11 @@ document.querySelector(".menu_kategorii").addEventListener("click", (e) => {
 
     last_type = type;}
 }
-            console.log(shortcut)
             const li = document.createElement('li');
+             li.classList.add("skrot_button");
+
+            
+            li.id =skrot_index;
             name = DOMPurify.sanitize(name);
             shortcut = DOMPurify.sanitize(shortcut);
             category = DOMPurify.sanitize(category);
@@ -211,14 +206,14 @@ document.querySelector(".menu_kategorii").addEventListener("click", (e) => {
             }
             odd_number++
             if (wyswietlanie_guzikow == null) wyswietlanie_guzikow = true
-            console.log(
-                "wyswietlanie_guzikow:",
-                wyswietlanie_guzikow
-            );
             if (wyswietlanie_guzikow)
-                li.innerHTML = `<b><span style=\"font-size: 15px;\">${skrot_index}.<br><br>${shortcut} </span></b> <span style=\"margin:0 5px 0 5px;\">&#8644;</span> ${name}<button id = "${skrot_index}" class ="skrot_button ${skrot_index}">WKLEJ ${skrot_index}</button>`;
+                li.innerHTML = `<b><span style=\"font-size: 15px;\">${skrot_index}.  ${shortcut} </span></b> <br><br><span style=\"margin:0 5px 0 5px;\">&#8644;</span> ${name}
+            `;
+
+            // <button id = "${skrot_index}" class ="skrot_button ${skrot_index}">WKLEJ ${skrot_index}</button>
+
             else
-                li.innerHTML = `<b><span style=\"font-size: 15px;\"><br><br>${shortcut} </span></b> <span style=\"margin:0 5px 0 5px;\">&#8644;</span> ${name}`;
+                li.innerHTML = `<b><span style=\"font-size: 15px;\"> </span></b>${name}`;
 
             li.title = text;
             skrot_index++;
@@ -267,3 +262,40 @@ document.querySelector(".menu_kategorii").addEventListener("click", (e) => {
         chrome.runtime.sendMessage({ type: "openDetachedWindow" });
     });
 });
+
+
+    document.getElementById('debug')?.addEventListener('click', (event) => {
+        console.log("debug================================")
+ukryj_puste_kategorie();
+
+
+});
+
+
+
+        function ukryj_puste_kategorie(){
+                let listy = document.getElementsByClassName("category")
+                // console.log("-------------------------------")
+                // console.log(listy)
+                // console.log("-------------------------------")
+
+                for (let j = 0; j < listy.length; j++){
+                    let lista = listy[j]
+                console.log(lista)
+
+                    let elementy_listy = lista.getElementsByTagName('li');
+
+                                    // console.log("==========",j,"==============")
+                console.log(elementy_listy)
+                                    // console.log("========================")
+                                    let licznik_wystapien = 0
+                    for(let element of elementy_listy){
+                        console.log(element.style.display)
+                        if (element.style.display=='')
+                            licznik_wystapien++;
+                    }
+                    // console.log(licznik_wystapien + "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" + j)
+                    if(licznik_wystapien > 0)lista.style.display='';
+                    else lista.style.display='none'
+    }
+  }

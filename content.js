@@ -58,6 +58,7 @@ async function loadShortcuts() {
             html: snippet.html,
             argumenty: snippet.argumenty ?? 0,
             title: snippet.title,
+
             payload: snippet.payload
         };
         return acc;
@@ -156,6 +157,9 @@ function wykonajSkrot(shortcut, shortcuts, target) {
     if(do_wypelnienia > 0){
         for(let i = 0; i<do_wypelnienia;i++){
             let pole = prompt("Pole", i)
+if (!isNaN(pole) && Number(pole) < 10) {
+    pole = String(pole).padStart(2, "0");
+}
             tablica_argumentow.push(pole)
         }
     }
@@ -163,14 +167,20 @@ function wykonajSkrot(shortcut, shortcuts, target) {
     console.log(tablica_argumentow)
     let kopia_skrotu = shortcuts[shortcut]
 
-    for(let i = 0; i < tablica_argumentow.length; i++){
-        console.log(tablica_argumentow[i])
-        if(i = 0){
-        kopia_skrotu.title = (kopia_skrotu.html).replaceAll("@0",tablica_argumentow[i]);
-        continue;
-        }
-        kopia_skrotu.html = (kopia_skrotu.html).replaceAll("@"+i,tablica_argumentow[i])
-    }
+ for(let i = 0; i < tablica_argumentow.length; i++) {
+
+    kopia_skrotu.html =
+        kopia_skrotu.html.replaceAll(
+            "@" + i,
+            tablica_argumentow[i]
+        );
+
+    kopia_skrotu.payload.fields.summary =
+        kopia_skrotu.payload.fields.summary.replaceAll(
+            "@" + i,
+            tablica_argumentow[i]
+        );
+}
 
     const sanitized = DOMPurify.sanitize(
         kopia_skrotu.html

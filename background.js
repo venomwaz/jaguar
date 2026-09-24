@@ -141,14 +141,20 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 },
                 body: JSON.stringify(message.payload)
             })
-                .then(async res => {
-                    const body = await res.text();
-                    console.log(res.ok, " RESULT API ======================")
-                    if (!res.ok) throw new Error(body);
-                })
-                .catch((error) => {
-                    sendResponse({ success: false, error: error.message });
-                });
+.then(async res => {
+    const body = await res.text();
+
+    if (!res.ok)
+        throw new Error(body);
+
+    sendResponse({ success: true });
+})
+.catch(error => {
+    sendResponse({
+        success: false,
+        error: error.message
+    });
+});
             });
             
         });

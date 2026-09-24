@@ -145,25 +145,7 @@ hr{
     clear:both;
 }
 
-.skrot_button{
-    height: 40px;
-    width: 35%;
-    float: right;
-    font-size: auto;
-    margin-top: 5px;
 
-        background-color: #22272B;
-    border-bottom: 1px solid #FFCC00;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    border-radius: 10px; /* Rounded corners for elements */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    transition: background-color 0.3s ease; 
-}
 
 .skrot_button:hover{
     background-color: #ffe9d0;
